@@ -24,13 +24,13 @@ requirements = load_reqs('requirements/base.txt')
 test_requirements = load_reqs('requirements/test.txt')
 
 setup(
-    name='etcd3',
-    version='0.12.0',
-    description="Python client for the etcd3 API",
+    name='etcd3-fork',
+    version='0.12.1',
+    description="Fork of https://github.com/kragniz/python-etcd3",
     long_description=readme + '\n\n' + history,
-    author="Louis Taylor",
-    author_email='louis@kragniz.eu',
-    url='https://github.com/kragniz/python-etcd3',
+    author="Sungmin Lee",
+    author_email='sungmin.cs@gmail.com',
+    url='https://github.com/dmxlsj/python-etcd3',
     packages=[
         'etcd3',
         'etcd3.etcdrpc',

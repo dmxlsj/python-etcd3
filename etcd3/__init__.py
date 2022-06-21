@@ -9,9 +9,9 @@ from etcd3.leases import Lease
 from etcd3.locks import Lock
 from etcd3.members import Member
 
-__author__ = 'Louis Taylor'
-__email__ = 'louis@kragniz.eu'
-__version__ = '0.12.0'
+__author__ = 'Sungmin Lee'
+__email__ = 'sungmin.cs@gmail.com'
+__version__ = '0.12.1'
 
 __all__ = (
     'etcdrpc',
